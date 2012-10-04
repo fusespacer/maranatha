@@ -8,9 +8,7 @@ gem 'inherited_resources'
 gem 'acts_as_commentable'
 
 group :development, :test do
-  
-  gem 'sqlite3'
-
+ gem 'sqlite3'
 end
   
 
