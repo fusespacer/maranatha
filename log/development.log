@@ -52862,3 +52862,4 @@ Migrating to CreateUsers (20121001132744)
   [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_comments_on_commentable_type')[0m
   [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("users")
   [1m[36mSQL (0.0ms)[0m  [1mPRAGMA index_list("videos")[0m
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /home/terry/mara/config/environment.rb:5)
