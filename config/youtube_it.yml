@@ -1,0 +1,11 @@
+common: &common
+  dev_key: AI39si7Sk1Zn9qIPpACfRHum3xiuKK0R1uBJdJBYMfsLawTMQEktt_wMwEdkVoMbHV1ONlWhkWDHNTRMwUUl41rL2Ub__2X1rA
+  username:  fusespacer
+  password:  1984muller
+  
+test:
+  <<: *common
+development:
+  <<: *common
+production:
+  <<: *common

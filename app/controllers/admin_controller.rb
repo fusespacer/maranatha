@@ -1,0 +1,9 @@
+class AdminController < ApplicationController
+
+   
+
+def index
+  @total_videos = Video.count
+  end
+
+end

@@ -1,0 +1,48 @@
+<div class="block">
+  <div class="secondary-navigation">
+    <ul class="wat-cf">
+<li class="first"><%= link_to "#{t("web-app-theme.list", :default => "About Mconnect")}", videos_path  %></li>
+      <li class="first"><%= link_to "#{t("web-app-theme.list", :default => "Create an account")}", new_user_path  %></li>
+     
+    </ul>
+  </div>          
+  <div class="content">            
+    
+    <div class="inner">
+
+
+<h1>mCONNECT</h1>
+<P>Are you looking for a Connection with your church ?
+
+Get Video, podcast, and messages/articles and more</P>
+
+<% if flash[:alert] %>
+<p id="notice"><%= flash[:alert] %></p>
+<% end %>
+
+<%= form_tag do %>
+<fieldset>
+<legend>Please Log In</legend><br />
+
+<div class="field">
+<label for="name">Name:</label><br />
+<%= text_field_tag :name, params[:name], :size =>30 %>
+</div>
+
+<div class="field">
+<label for="password">Password:</label><br />
+<%= password_field_tag :password, params[:password], :size =>30 %>
+</div>
+<br />
+<div>
+<%= submit_tag "Login" %>
+</div>
+
+</fieldset>
+<% end %>
+ 
+</div>
+  </div>
+  </div>
+
+<% content_for :sidebar, render(:partial => 'sidebar') -%>

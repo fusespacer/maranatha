@@ -1,0 +1,22 @@
+/* Override here any style defined by web-app-theme */
+
+/*header
+------------------------*/
+#header-wrapper {
+	margin:0 auto;
+	width:100%;
+	height:240px;
+	background-color:#01699d;
+opacity:0.6;
+  filter:alpha(opacity=60); /* For IE8 and earlier */
+  }
+	}
+#header{
+	width:970px;
+	height:320px;
+	background-image:url(images/WCCIFront4.png);
+	margin-top: 0px;
+	margin-right:auto;
+	margin-bottom: 0;
+	margin-left:auto;
+}

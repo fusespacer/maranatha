@@ -1,0 +1,233 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*body
+------------------------*/
+ /*@font-face {
+      font-family: "Myriad Pro Cond";
+      src: url("js/Myriad_Pro_400.font.js"); format("opentype"); 
+ }*/
+
+body {
+	font-family:Arial, Tahoma, Verdana;
+	font-size:12px;
+	margin: 0 auto;
+	padding:0;
+	padding-top:0;
+        background:url(images/ubuntu-studio-rebranded-1920x1200.png) no-repeat;
+       
+        background-size:100% 100%;
+        background-attachment:fixed;
+}
+
+li {
+	display:inline;
+	padding:0px;
+	margin-right:22px;
+	margin-bottom:22px;
+}
+
+.align-li-right {
+	float:right;
+}
+
+align-right a:hover img {
+	border: 0px solid #8ad3f8;}
+/*header
+------------------------*/
+#header-wrapper {
+	margin:0 auto;
+	width:100%;
+	height:240px;
+	background-color:#01699d;
+opacity:0.3;
+  filter:alpha(opacity=30); /* For IE8 and earlier */
+  }
+	}
+#header{
+	width:970px;
+	height:320px;
+	background-image:url(images/WCCIFront4.png);
+	margin-top: 0px;
+	margin-right:auto;
+	margin-bottom: 0;
+	margin-left:auto;
+}
+	
+/* headings
+------------------------------------------------------*/
+
+h1, h2, /*h3,*/ h4, h5, h6{
+	font-family: "Myriad Pro Cond", "Arial Narrow", "Arial";
+	font-weight: 300;
+	color:#FFFFFF;
+	letter-spacing: 1px;
+}
+h1{
+	font-size:18px;
+	line-height:30px;
+	margin-bottom:10px;
+
+}
+h2{
+	font-size:21px;
+	line-height:28px;
+	margin-bottom:10px;
+	font-family: "Myriad Pro Cond", "Arial Narrow", Arial;
+	color: #FFFFFF;	
+}
+h3{
+	font-size:22px;
+	line-height:20px;
+	margin-bottom:10px;
+	/*font-family: "Myriad Pro Cond", "Arial Narrow", Arial;*/
+	/*font-family: "Myriad Pro Cond", Times, "Arial Narrow", Arial;*/
+	color:#FCFFAE;
+}
+h4{
+	font-size:20px; 
+	line-height:18px; 
+	margin-bottom:8px; 
+	font-weight:bold;
+}
+h5{
+	font-size:18px; 
+	margin:3px 0px; 
+	padding:0px; 
+}
+h6{
+	font-size:12px; 
+	margin:3px 0px; 
+	padding:0px; 
+}	
+	
+/* hyper links
+--------------------------------------*/
+
+a:link, a:visited {
+	font-family:"Myriad Pro Cond", "Arial Narrow", Arial;
+  font-weight: normal;
+	color: #E0EBA9;
+	text-decoration: none;
+	outline:none;
+}
+a:hover, a:active {
+	color: #0099FF;
+}
+	
+	
+#footer	{
+	width:970px;
+	
+	margin-top: 0px;
+	margin-right:auto;
+	margin-bottom: 0;
+	margin-left:auto;
+	clear:both;
+	
+opacity:0.7;
+  filter:alpha(opacity=70); /* For IE8 and earlier */
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+/*logo
+------------------------*/
+#logo {
+	width:450px;
+	height:140px;
+	float:left;
+	display:block;
+	padding-top:40px;
+	background:url(images/logo_maranatha.png)
+}
+
+#tagline-menu {
+	width:970px;
+	height:40px;
+	padding-top:5px;
+	padding-bottom:55px;
+	clear:both;
+}
+
+#button{
+	float:right;
+	border:none;
+	padding:0px;
+}
+
+
+
+/*middle-div
+------------------------background-color:#036f6d;*/
+#middle-div {
+	width:970px;
+	height:900px;
+	margin-top: 0px;
+	margin-right:auto;
+	margin-bottom: 0;
+	margin-left:auto;
+	clear:both;
+	
+opacity:0.7;
+  filter:alpha(opacity=70); /* For IE8 and earlier */
+	}
+
+/*content
+------------------------*/
+#gallery-content {
+	height:550px;
+	margin-top:25px
+}
+
+
+/*image gallery
+------------------------*/
+div.img
+{
+  margin: 2px;
+  margin-right:15px;
+  margin-left:10px;
+  margin-bottom:10px;
+  margin-top:10px;
+  border: 0px solid #0000ff;
+  height:320px;
+  width: 215px;
+  float: left;
+  text-align: center;
+}	
+div.img img
+{
+  display: inline;
+  margin: 3px;
+  border: 4px solid #ffffff;
+}
+div.img a:hover img {border: 4px solid #8ad3f8;}
+div.desc
+{
+  text-align: left;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  color: #FFFFFF;	
+  width: 200px;
+  margin: 8px;
+}
+
+
+
+/*styles
+------------------------*/

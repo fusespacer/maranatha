@@ -1,0 +1,18 @@
+<div class="block notice">
+  <h3>mCONNECT</h3>
+  <p></p>
+  <div class="h1">
+    <p>Add members from here!.</p>
+    <p>Add, Delete, Update members from here .</p>
+  
+<% if session[:user_id] %>
+<br />
+<%= link_to 'Videos', videos_path %><br />
+<%= link_to 'members', users_path %><br />
+<br />
+<%= button_to 'Logout', logout_path, :method => :destroy %>
+<% end %>
+  </div>
+ 
+
+</div>
