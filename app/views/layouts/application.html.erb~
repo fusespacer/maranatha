@@ -50,13 +50,7 @@
         <%= yield %>  
       </div>
       <div id="sidebar">
-        <% if session[:user_id] %>
-<br />
-<%= link_to 'Videos', videos_path %><br />
-<%= link_to 'members', users_path %><br />
-<br />
-<%= button_to 'Logout', logout_path, :method => :delete %>
-<% end %>
+        <%= yield :sidebar %>
       </div>
     
 

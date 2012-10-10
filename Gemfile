@@ -13,6 +13,9 @@ gem 'web-app-theme', '>= 0.6.2'
 
 end
   
+group :production do
+gem 'pg'
+end
 
 gem 'thin'
 gem 'therubyracer'
