@@ -8,7 +8,7 @@ gem 'inherited_resources'
 gem 'acts_as_commentable'
 
 group :development, :test do
-gem 'sqlite3'
+
 gem 'web-app-theme', '>= 0.6.2' 
 
 end
