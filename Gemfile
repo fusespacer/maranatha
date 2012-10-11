@@ -12,6 +12,10 @@ gem 'sqlite3'
 gem 'web-app-theme', '>= 0.6.2' 
 
 end
+
+group :development do
+gem 'sqlite3'
+end
   
 group :production do
 gem 'pg'
