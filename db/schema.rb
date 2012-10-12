@@ -14,13 +14,13 @@
 ActiveRecord::Schema.define(:version => 20121001132744) do
 
   create_table "comments", :force => true do |t|
-    t.string   "title",            :limit => 50, :default => ""
-    t.text     "comment"
-    t.integer  "commentable_id"
-    t.string   "commentable_type"
-    t.integer  "user_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.string    "title",            :limit => 50, :default => ""
+    t.text      "comment"
+    t.integer   "commentable_id"
+    t.string    "commentable_type"
+    t.integer   "user_id"
+    t.timestamp "created_at"
+    t.timestamp "updated_at"
   end
 
   add_index "comments", ["commentable_id"], :name => "index_comments_on_commentable_id"
@@ -28,20 +28,20 @@ ActiveRecord::Schema.define(:version => 20121001132744) do
   add_index "comments", ["user_id"], :name => "index_comments_on_user_id"
 
   create_table "users", :force => true do |t|
-    t.string   "name"
-    t.string   "hashed_password"
-    t.string   "salt"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.string    "name"
+    t.string    "hashed_password"
+    t.string    "salt"
+    t.timestamp "created_at"
+    t.timestamp "updated_at"
   end
 
   create_table "videos", :force => true do |t|
-    t.string   "title"
-    t.string   "description"
-    t.string   "yt_video_id"
-    t.boolean  "is_complete", :default => false
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.string    "title"
+    t.string    "description"
+    t.string    "yt_video_id"
+    t.boolean   "is_complete", :default => false
+    t.timestamp "created_at"
+    t.timestamp "updated_at"
   end
 
 end
